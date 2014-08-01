@@ -1,0 +1,234 @@
+
+<!DOCTYPE html>
+<html>
+
+<!-- Need to remove these includes upon migration to Unhangout event page -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+    .event-container {
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 12px;
+      line-height: 24px;
+    }
+
+    .event-banner {
+        background-image: url(https://dl.dropboxusercontent.com/s/rk6jw6hzodm1351/medialab.jpg);
+        background-size: cover;
+        background-position: center;
+        color: #ffffff;
+        padding-top: .75em;
+        opacity: 0.99;
+        z-index: 10;
+        overflow: auto; 
+    }
+
+    .event-banner h1 {
+        font-size: 4em; 
+        font-family: Lato, Helvetica, sans-serif; 
+        font-weight: bold; 
+        text-align: center;
+        color: white;
+        text-shadow: 1px 1px 2px rgba(0,0,0,.8);
+    }
+
+    .event-banner p { 
+        font-size: 1.2em; 
+        text-align: center; 
+        max-width: 500px; 
+        margin-right: auto; 
+        margin-left: auto; 
+        font-family: Lato, Helvetica, sans-serif; 
+        text-shadow: 1px 1px 2px rgba(0,0,0,.8);
+    }
+
+    .event-banner .date {
+        font-size: 1.4em;
+    }
+
+    .event-banner button {
+        width: 335px; 
+        height:40px; 
+        background-color: #DA2126; 
+        margin-right: auto; 
+        margin-left: auto; 
+        margin-bottom: 10px;
+        font-family: Lato, Helvetica, sans-serif; 
+        border: 2px; 
+        border-radius: 2px; 
+        font-size: 20px; 
+        color: #fff;  
+        opacity: 0.99;
+    }
+
+    .about-container p {
+        font-size: 1.2em; 
+        font-weight: 300;
+    } 
+
+    .breakout-info {
+      margin-left: -20px;
+    }
+
+    .breakout-info img {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: -30px;
+        height: 150px;
+        width: 200px;
+        border: 3px #999 solid;
+    }
+
+    .breakout-info .breakout-name {
+        margin-top: 5px;
+        font-size: 1.5em;
+    }
+
+    .breakout-info .groupdesc {
+        margin-top: 20px;
+        font-size: 1.2em;
+        line-height: 20px;
+        font-weight: 300;
+    }
+
+    .facilitator-info img {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: -30px;
+        height: 150px;
+        width: 175px;
+        border: 3px #999 solid;
+    }
+
+    .facilitator-info .fac-name {
+        margin-top: 5px;
+        font-size: 1.5em;
+    }
+
+    .facilitator-info .fac-bio {
+        margin-top: 20px;
+        font-size: 1.2em;
+        line-height: 20px;
+        font-weight: 300;
+    }
+
+</style>
+
+        <div class="container event-container">
+
+            <!-- Banner for the event page --> 
+            <div class="event-banner"> 
+                <h1>MEDIA LAB VIRTUAL VISIT</h1>
+
+                <p>Join the second virtual visit to the MIT Media Lab -- Talk with current students and learn about our research.</p>
+
+                <p class="date">August 28, 2014 11 A.M. EDT</p>
+
+                 <div class="col-lg-4 col-md-4"></div>
+
+                <div class="col-lg-4 col-md-4">
+                  <a href="https://docs.google.com/forms/d/1tY80AGk9_sHkV26Y63_mzaZMfzVQFDslp7FXf5fBqBg/viewform" target="_blank"><button style="">Signup for the Event</button></a>
+                </div>
+            </div>
+
+             <div class="about-container">
+
+                <h3>About this Event</h3>
+                <p>
+                  Join 10 Media Lab students to learn more about their work and the work of their different research groups. After a short welcome, we will break out into small group conversations where participants can ask questions and share ideas. <br/>Each conversation will be hosted by current MIT Media Lab students, who will talk about their research, the philosophy of their groups, and what goes on at the Lab in general. The event will be hosted on the Unhangout platform, a new way of conducting large, online conversations that was developed at the Media Lab. To prepare for the event, have a look at the How-To Unhangout instructions, <a href="https://unhangout.media.mit.edu/how-to-unhangout/" target="_blank">https://unhangout.media.mit.edu/how-to-unhangout/</a> and make sure your computer fulfills the basic requirements. Sign up for reminders about the event and get ready to Unhangout!
+                </p>
+             </div>
+
+             <div class="breakout-info col-lg-7">
+                <div>
+                  <h3>Breakout Conversations</h3>
+                </div>
+
+                <!-- Lifelong Kindergarten -->
+
+                <div class="col-lg-12">
+                  <div class="col-lg-4">
+                    <img src="https://dl.dropboxusercontent.com/s/vbgwohrh2jg6ctc/llk.jpg">
+                  </div>
+
+                  <div class="col-lg-8">
+                    <div class="col-lg-12">
+                      <p class="breakout-name">Lifelong Kindergarten</p>
+                    </div>
+
+                    <div class="col-lg-12">
+                      <p class="groupdesc">The group develop new technologies that, in the spirit of the blocks and fingerpaint of kindergarten, expand the range of what people can design, create, and learn.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- --> 
+                <div class="col-lg-12">
+                  <div class="col-lg-4">
+                    <img src="https://dl.dropboxusercontent.com/s/ka402zhpjdu18ji/mediatedmatter.jpg">
+
+                  </div>
+
+                  <div class="col-lg-8">
+                    <div class="col-lg-12">
+                      <p class="breakout-name">Mediated Matter</p>
+                    </div>
+
+                    <div class="col-lg-12">
+                      <p class="groupdesc">The group is dedicated to the development and application of novel processes that enable and support the design of physical matter, and its adaptability to environmental conditions in the creation of form</p>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+
+              <div class="facilitator-info col-lg-5">
+                <div >
+                  <h3>Facilitators</h3>
+                </div>  
+
+
+               <!-- Alisha Panjwani -->
+
+               <div class="col-lg-12">
+                  <div class="col-lg-5">
+                    <img src="https://pbs.twimg.com/profile_images/338979817/Photo_151.jpg">
+                  </div>
+
+                  <div class="col-lg-7">
+                    <div class="col-lg-12">
+                      <p class="fac-name">Alisha Panjwani</p>
+                    </div>
+
+                    <div class="col-lg-12">
+                      <p class="fac-bio">Research Assistant</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- --> 
+
+                <div class="col-lg-12">
+                  <div class="col-lg-5">
+                    <img src="https://dl.dropboxusercontent.com/s/vbgwohrh2jg6ctc/llk.jpg">
+                  </div>
+
+                  <div class="col-lg-7">
+                    <p class="fac-name">Lifelong Kindergarten</p>
+                  </div>
+                </div>
+
+              </div>
+
+
+             </div>
+        </div>
+</html>
